@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
+const connection = require("./database.js");
 require("dotenv").config();
 
 const app = express();
@@ -11,5 +12,6 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 app.listen(PORT, () => {
-  console.log("Server listening in port " + PORT);
+  connection();
+  console.log("Server is listening on port", PORT);
 });

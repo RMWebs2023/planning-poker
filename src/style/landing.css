@@ -23,14 +23,14 @@ body {
   filter: drop-shadow(0 0 2em #000);
 }
 
-@keyframes pin {
+/* @keyframes pin {
   from {logo-s
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 .title-landing {
   font-family: 'Days One', sans-serif;
@@ -45,7 +45,7 @@ body {
 .p2 {
   font-size: 78px;
   position: relative;
-  top: -65px;
+  /* top: -65px; */
 }
 
 
