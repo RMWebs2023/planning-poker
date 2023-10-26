@@ -17,7 +17,7 @@
     background-color: #ff7f35;
     color: black;
     width: 40vw !important;
-    min-height: 700px;
+    min-width: 500px !important;
 }
 
 .p {
