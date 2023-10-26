@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.text-muted {
+    font-size: 12px !important;
+}
+
+.formCheck {
+    display: flex;
+    flex-direction: column;
+}
+
+.switchPart {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 1fr;
+}
+
+.form-check-input:checked {
+    background-color: #ff7f35 !important;
+    border-color: #ff7f35 !important;
+}

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import BasicExample from "./BasicExample.jsx"
 import "../style/crearmesa.css"
 
 function CrearMesa() {
@@ -11,17 +12,16 @@ function CrearMesa() {
 
     return (
         <>
-        <Button variant="primary" onClick={handleShow}>
+        <Button className='button' onClick={handleShow}>
             Crear Mesa
         </Button>
 
-        <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas className="bodyOffcanvas" show={show} onHide={handleClose}>
             <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                <Offcanvas.Title className='tituloOffcanvas'>Creando mesa</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body className='p'>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
+                <BasicExample />
             </Offcanvas.Body>
         </Offcanvas>
         </>

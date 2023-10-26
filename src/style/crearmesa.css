@@ -1,3 +1,33 @@
+.button {
+    background-color: #ff7f35 !important;
+    color: white !important;
+    border-color: #ff7f35 !important;
+    font-family: 'Pixelify Sans', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.button:hover {
+    background-color: white !important;
+    color: #ff7f35 !important;
+    border-color: #ff7f35 !important;
+}
+
+.bodyOffcanvas {
+    background-color: #ff7f35;
+    color: black;
+    width: 40vw !important;
+}
+
 .p {
     font-family: 'Pixelify Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.tituloOffcanvas {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px !important;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
