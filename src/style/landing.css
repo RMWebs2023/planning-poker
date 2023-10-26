@@ -19,9 +19,9 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+/*.logo:hover {
   filter: drop-shadow(0 0 2em #000);
-}
+}*/
 
 /* @keyframes pin {
   from {logo-s
