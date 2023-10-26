@@ -4,6 +4,14 @@
     row-gap: 15px;
 }
 
+.formBorder {
+    border-color: #ff7f35 !important;
+}
+
+.selectOption:hover {
+    background-color: #ff9f68 !important;
+}
+
 .text-muted {
     font-size: 12px !important;
 }

@@ -8,12 +8,12 @@ function BasicExample() {
         <Form className='form'>
                 
             <FloatingLabel controlId="floatingInput" label="Nombre de la mesa" >
-                <Form.Control type="text" placeholder="Nombre de la mesa" />
+                <Form.Control className="formBorder" type="text" placeholder="Nombre de la mesa" />
             </FloatingLabel>
 
             <div>
-                <Form.Select aria-label="Default select example">
-                    <option>Método de votación</option>
+                <Form.Select className="formBorder" aria-label="Default select example">
+                    <option className='selectOption'>Método de votación</option>
                     <option value="1">Fibonacci ( 0, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ?)</option>
                     <option value="2">Modified Fibonacci ( 0, ½, 1, 2, 3, 5, 8, 13, 20, 40, 100, ?)</option>
                     <option value="3">Powers of 2 ( 0, 1, 2, 4, 8, 16, 32, 64, ?)</option>
@@ -25,7 +25,7 @@ function BasicExample() {
             </div>
 
             <div>
-                <Form.Select aria-label="Default select example">
+                <Form.Select className="formBorder" aria-label="Default select example">
                     <option>Quien puede revelar los resultados??</option>
                     <option value="1">Yo, el good de la mesa</option>
                     <option value="2">Cualquiera ¬¬</option>
@@ -33,7 +33,7 @@ function BasicExample() {
             </div>
 
             <div>
-                <Form.Select aria-label="Default select example">
+                <Form.Select className="formBorder" aria-label="Default select example">
                     <option>Quien puede crear mas temas de votacion?</option>
                     <option value="1">Yo, el good de la mesa</option>
                     <option value="2">Cualquiera ¬¬</option>
