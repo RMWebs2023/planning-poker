@@ -19,9 +19,9 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+/*.logo:hover {
   filter: drop-shadow(0 0 2em #000);
-}
+}*/
 
 /* @keyframes pin {
   from {logo-s
@@ -33,9 +33,10 @@ body {
 } */
 
 .title-landing {
-  font-family: 'Days One', sans-serif;
+  font-family: 'Unbounded', sans-serif;;
   text-transform: uppercase;
   text-shadow: 2px 2px 5px #2a2a2a;
+  letter-spacing: 5px;
 }
 
 .p1 {
@@ -45,9 +46,9 @@ body {
 .p2 {
   font-size: 78px;
   position: relative;
-  /* top: -65px; */
+  top: -20px; 
+  font-size: bolder;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
